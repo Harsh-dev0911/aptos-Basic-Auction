@@ -1,0 +1,15 @@
+[package]
+name = "new-project-Thakur"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xdeff024b6b3e1560b350ef7b4f0ae6d7a062ebff22a948a07008df9217f80f6a'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
